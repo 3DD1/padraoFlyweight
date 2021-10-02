@@ -12,10 +12,10 @@ public class Cliente {
     }
     public String obterCliente(){
         return "Cliente{" +
-                "Nome: "+ this.nome +
-                "Sobrenome: " + this.sobrenome +
-                "CPF: " + this.cpf + '\'' +
-                ", modelo:'" + carroDoCliente.getModelo() + '\''+
+                "Nome: "+ this.nome +  '\'' +
+                ", Sobrenome: " + this.sobrenome +  '\'' +
+                ", CPF: " + this.cpf + '\'' +
+                ", modelo: '" + carroDoCliente.getModelo() + '\''+
                 ", ano: '" + carroDoCliente.getAno() + '\'' +
                 ", cor: '" + carroDoCliente.getCor() + '\'' +
                 '}';
